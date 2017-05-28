@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/searchbar.css">
     <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/chat.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,7 +58,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="{{route('anuncios')}}" class="animate">
+                        <a href="{{route ('anuncios')}}" class="animate">
                           <span class="desc animate">Meus anúncios</span>
                           <span class="glyphicon glyphicon-paperclip"></span>
                         </a>
@@ -111,7 +112,7 @@
             <p>Doação</p>
     </div>
     <div class="card-action">
-            <a href="#" >Alice quer</a>
+            <a href="#" data-toggle="modal" data-target="#chat" >Alice quer</a>
         </div>
     </div>
 </div>
@@ -126,7 +127,7 @@
             <p> Troca</p>
     </div>
     <div class="card-action">
-            <a href="#" target="new_blank">Alice quer</a>
+            <a href="#" data-toggle="modal" data-target="#chat" target="new_blank">Alice quer</a>
         </div>
     </div>
 </div>
@@ -141,7 +142,7 @@
             <p>Troca</p>
     </div>
     <div class="card-action">
-            <a href="#" target="new_blank">Caio quer</a>
+            <a href="#" data-toggle="modal" data-target="#chat" target="new_blank">Caio quer</a>
         </div>
     </div>
 </div>
@@ -198,6 +199,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!--build:js js/main.min.js -->
     <script src="/js/menu.js"></script>
+    <script src="/js/chat.js"></script>
     <!-- endbuild -->
   </body>
 </html>
