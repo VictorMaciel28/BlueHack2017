@@ -1,0 +1,64 @@
+body {
+  background-image: url(../images/bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.logo {
+  width: 300px;
+  height: auto; }
+
+.nav-color {
+  background-color: #AB47BC;
+  border: none; }
+
+.cadastro {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 85%;
+  background-color: transparent;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid white;
+  color: white;
+  font-size: 17px; }
+  .cadastro:hover {
+    background-color: white;
+    color: #AB47BC; }
+
+.form-login {
+  margin-top: 30px;
+  padding: 12px 80px 12px 80px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 17px; }
+  .form-login:hover {
+    background-color: white;
+    color: #AB47BC; }
+
+.login-input {
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #757575;
+  border-radius: 0px;
+  text-align: center;
+  box-shadow: none !important;
+  color: white; }
+
+.senha {
+  color: white; }
+
+.form-control::-moz-placeholder {
+  color: white; }
+
+.form-control:-ms-input-placeholder {
+  color: white; }
+
+.form-control::-webkit-input-placeholder {
+  color: white; }
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-bottom: 2px solid white; }

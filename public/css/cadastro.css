@@ -1,0 +1,59 @@
+body {
+  background-image: url(../images/bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.text-white {
+  color: white; }
+
+.barra-cadastro {
+  background-color: #AB47BC;
+  padding: 10px; }
+
+.cadastro-button {
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  box-shadow: none !important;
+  background-color: #2e7d32;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .cadastro-button:hover {
+    color: white;
+    background-color: #1B5E20; }
+
+.form-control::-moz-placeholder {
+  color: white; }
+
+.form-control:-ms-input-placeholder {
+  color: white; }
+
+.form-control::-webkit-input-placeholder {
+  color: white; }
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-bottom: 2px solid white; }
+
+.login-input {
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #757575;
+  border-radius: 0px;
+  text-align: center;
+  box-shadow: none !important;
+  color: white;
+  text-align: center;
+  text-align-last: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #757575;
+  color: #757575;
+  -moz-appearance: none;
+  -webkit-appearance: none; }

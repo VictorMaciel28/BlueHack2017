@@ -1,0 +1,55 @@
+body {
+  background-image: url(../images/bg.png); }
+
+.logo {
+  margin-top: 20px;
+  width: 350px;
+  height: auto; }
+
+.cadastro {
+  margin-top: 30px;
+  background-color: transparent;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid white;
+  color: white;
+  font-size: 17px;
+  margin-left: 250px; }
+  .cadastro:hover {
+    background-color: white;
+    color: grey; }
+
+.form-login {
+  margin-top: 30px;
+  padding: 12px 80px 12px 80px;
+  font-size: 17px;
+  background-color: #2e7d32;
+  color: white; }
+  .form-login:hover {
+    color: white;
+    background-color: #1B5E20; }
+
+.login-input {
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #757575;
+  border-radius: 0px;
+  text-align: center;
+  box-shadow: none !important;
+  color: white; }
+
+.senha {
+  color: white; }
+
+.form-control::-moz-placeholder {
+  color: white; }
+
+.form-control:-ms-input-placeholder {
+  color: white; }
+
+.form-control::-webkit-input-placeholder {
+  color: white; }
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-bottom: 2px solid white; }
